@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Arquivo de estilo-->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Kenzie Flix</title>
 </head>
 
@@ -18,7 +20,7 @@
 <body>
 
     <!--Cabeçalho-->
-    <header class="cabecalho">
+    <header class="cabecalho" id="idCabecalho">
 
         <!--Logo-->
         <figure class="cabecalho__logo">
@@ -52,7 +54,7 @@
             </ul>
         </nav>
 
-        <div class="cabecalho__nenuConfig">
+        <div class="cabecalho__menuConfiguracao">
             <ul>
                 <li>
                     <a href="#">Pesquisa</a>
@@ -72,10 +74,137 @@
             </ul>
 
         </div>
-
-
-
     </header>
+
+    <main>
+
+        <section class="secaoDestaque">
+            <!--Imagem destaque-->
+            <figure class="secaoDestaque__imagemDestaque">
+                <img src="./assets/img/destaque.png"  alt="Nome do filme">
+                <figcaption></figcaption>
+            </figure>
+
+            <article class="secaoDestaque__descricaoDestaque">
+            <h1>Stranger Things</h1>
+            <p>Quando um garoto desaparece, a cidade toda participa nas buscas. 
+                Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
+            </article>
+        
+            <div class="secaoDestaque__navegacaoDestaque">
+                <a href="#">Assistir</a>
+                <a href="#">Mais informações</a>
+            </div>
+
+        </section>
+
+        <section class="secaoFilmes">
+            <h2>Em alta</h2>
+
+            <ul class="secaoFilmes__listaFilmes">
+                <li>
+                    <figure class="secaoDestaque__imgDestaque">
+                        <img src="./assets/img/filme1.png"  alt="Filme 1">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="secaoDestaque__imgDestaque">
+                        <img src="./assets/img/filme2.png"  alt="Filme 1">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="secaoDestaque__imgDestaque">
+                        <img src="./assets/img/filme3.png"  alt="Filme 1">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+  
+
+        </section>
+
+        <section class="secaoFilmes secaoFilmes--progressoFilmes">
+
+            <h2>Continuar Assistindo</h2>
+
+            <ul class="secaoFilmes__listaFilmes">
+                <li>
+                    <figure class="secaoDestaque__imgDestaque">
+                        <img src="./assets/img/filme1.png"  alt="Filme 1">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="secaoDestaque__imgDestaque">
+                        <img src="./assets/img/filme2.png"  alt="Filme 1">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="secaoDestaque__imgDestaque">
+                        <img src="./assets/img/filme3.png"  alt="Filme 1">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+           <div class="rodape__midiasSociais">
+            <ul>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="./assets/img/tt.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="./assets/img/tt.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="./assets/img/tt.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="./assets/img/tt.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        
+        </div>
+
+        <nav class="rodape__menuNavegacao">
+            <ul>
+                <li>
+                    <a href="#">Idioma e legenda</a>
+                    <a href="#">Impresa</a>
+                    <a href="#">Privacidade</a>
+                    <a href="#">Entre em contato</a>
+                </li>
+                <li>
+                    <a href="#">Audio descrição</a>
+                    <a href="#">Relações com investidores</a>
+                    <a href="#">Avisos</a>
+                </li>
+            </ul>
+
+        </nav>
+        <a href="#" class="rodape__linkCodigo">Códigodo serviço</a>
+
+        <p>© 1997-2021 KenzieFlix, Inc.  {i-98486487362962464292481464}</p>
+    </footer>
+
+
 </body>
+
 
 </html>
